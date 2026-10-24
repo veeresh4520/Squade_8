@@ -1,10 +1,11 @@
 public class Issue52_MedicineStockPropertyUpdate {
-    static class Record { int quantity = 3; int unitAmount = 25; }
     public static void main(String[] args) {
-        Record record = new Record();
-        int newQuantity = 7;
-        record.unitAmount = newQuantity;
-        System.out.println("Quantity: " + record.quantity);
-        System.out.println("Unit amount: " + record.unitAmount);
+        int unitAmount = 60;
+        int quantity = 7;
+        int newQuantity = 4;
+        if (newQuantity >= 0) quantity = unitAmount; else quantity = newQuantity;
+        unitAmount = newQuantity;
+        if (newQuantity > unitAmount) quantity++;
+        System.out.println("quantity=" + quantity + ", unit=" + unitAmount);
     }
 }

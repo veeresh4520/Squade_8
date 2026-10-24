@@ -1,25 +1,25 @@
-# Issue #42: Pharmacy Inventory System: Apply the low-stock threshold rule at its exact boundary
+# Issue #42: Pharmacy Inventory System — Boundary Reasoning
 
-**Difficulty:** Hard  
-**Scenario:** Pharmacy Inventory System: Apply the low-stock threshold rule at its exact boundary. The supplied example uses fixed values so the participant can focus on the behaviour of this one operation.  
-**Topic:** logical errors, conditions, loops, arrays, strings, classes/objects, constructors, and methods  
+**Difficulty:** Hard (CodeChef-style 500–600 range)  
+**Topic:** multi-condition reasoning, arrays, loops, arithmetic, strings, object state, constructors, and methods  
 **Starter file:** `src/main/java/hackathon/Issue42_MedicineStockThreshold.java`
 
 ## Scenario brief
-Pharmacy Inventory System: Apply the low-stock threshold rule at its exact boundary. The supplied example uses fixed values so the participant can focus on the behaviour of this one operation.. This is a small, isolated exercise; keep the solution within beginner Java and do not add collections or external libraries.
+This challenge sits around the CodeChef beginner 500–600 difficulty range. A realistic workflow is producing an unexpected result even though the sample looks straightforward. Several parts of the program may influence the outcome, so test the supplied case alongside nearby and combined cases.
 
 ## Task
-In the pharmacy inventory system, the rule activates when the value is at least 100. The current check does not apply the rule when the supplied value is exactly 100. Update the behaviour so the boundary is handled correctly.
+Compare the sample with nearby values and combinations of conditions. The interesting behavior may appear at the edge of an otherwise ordinary case. Use the existing scenario and sample as evidence, then make the smallest reliable correction that fits the intended behavior. Do not hard-code the sample result or remove the scenario's constraints.
 
 ## Expected output
+
 The program should produce exactly:
 
 ```text
-Rule applied
+Within limit
 ```
 
 ## Done when
-- [ ] The program produces the expected output.
-- [ ] The supplied scenario and test values are preserved.
-- [ ] You test one additional sensible boundary case.
-- [ ] Your pull request explains the behaviour changed and how you tested it.
+- [ ] The program matches the supplied sample output.
+- [ ] Related edge cases behave consistently with the scenario.
+- [ ] The existing inputs and project structure are preserved.
+- [ ] The change is explained with the reasoning and tests used.

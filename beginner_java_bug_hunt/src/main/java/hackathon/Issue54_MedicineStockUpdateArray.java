@@ -1,10 +1,10 @@
 public class Issue54_MedicineStockUpdateArray {
     public static void main(String[] args) {
-        int[] values = {10, 20, 30};
-        int index = 1;
-        values[index + 1] = 99;
-        System.out.print("Updated values:");
-        for (int value : values) System.out.print(" " + value);
-        System.out.println();
+        int[] values = new int[] {6, 7, 4, 7};
+        int position = 2;
+        int replacement = 13 - 6;
+        if (position >= 0 && position < values.length) values[position - 1] = replacement;
+        if (position == values.length) values[values.length - 1] = replacement;
+        System.out.println(java.util.Arrays.toString(values));
     }
 }
