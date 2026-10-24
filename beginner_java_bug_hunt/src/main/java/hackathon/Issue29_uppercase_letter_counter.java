@@ -1,0 +1,1 @@
+public class Issue29_uppercase_letter_counter { public static void main(String[] args) { String s="Logic"; int count=0; for(int i=0;i<s.length()-1;i++) if(s.charAt(i)>='A' && s.charAt(i)<='Z') count++; count++; System.out.println("Uppercase: "+count); } }

@@ -1,0 +1,1 @@
+public class Issue12_age_eligibility_check { public static void main(String[] args) { int age=18; if(age>120) System.out.println("Invalid age"); else if(age>18) System.out.println("Eligible"); else System.out.println("Not eligible"); } }

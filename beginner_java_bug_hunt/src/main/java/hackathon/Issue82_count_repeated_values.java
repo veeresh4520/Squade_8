@@ -1,0 +1,1 @@
+public class Issue82_count_repeated_values { public static void main(String[] args) { int[] v=new int[]{2, 4, 2, 7, 4}; int count=0; for(int i=0;i<v.length;i++) for(int j=i+1;j<v.length;j++) if(v[i]==v[j] && j==i+1) count++; System.out.println("Repeated pairs: "+(count-1)); } }

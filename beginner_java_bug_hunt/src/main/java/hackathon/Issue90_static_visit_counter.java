@@ -1,0 +1,1 @@
+public class Issue90_static_visit_counter { public static void main(String[] args) { Counter a=new Counter(); Counter b=new Counter(); Counter c=new Counter(); System.out.println("Created: "+Counter.count); } static class Counter { static int count=1; Counter() { count++; count++; } } }

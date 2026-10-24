@@ -1,0 +1,1 @@
+public class Issue95_symmetric_grid_check { public static void main(String[] args) { int[][] a={{1,2},{2,3}}; if(a[0][1]==a[1][0] && a[0][0]==a[1][1] && a[0][0]==a[0][1]) System.out.println("Symmetric"); else System.out.println("Not symmetric"); } }

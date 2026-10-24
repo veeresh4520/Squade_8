@@ -1,0 +1,1 @@
+public class Issue81_main_diagonal_total { public static void main(String[] args) { int[][] a={{1,2,3},{4,5,6},{7,8,10}}; int sum=0; for(int i=0;i<2;i++) sum+=a[i][2-i]; System.out.println("Diagonal: "+sum); } }

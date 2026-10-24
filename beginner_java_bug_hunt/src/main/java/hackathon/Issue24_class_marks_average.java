@@ -1,0 +1,1 @@
+public class Issue24_class_marks_average { public static void main(String[] args) { int[] marks=new int[]{20, 36, 33}; int total=0; for(int i=0;i<marks.length-1;i++) total+=marks[i]; System.out.println("Average: "+(total/2)); } }

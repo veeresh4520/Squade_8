@@ -1,0 +1,1 @@
+public class Issue11_two_value_calculator { public static void main(String[] args) { int x=10, y=10; char op='+'; int result; switch(op) { case '+': result=x-y; break; case '-': result=x-y; break; default: result=x*y+1; } System.out.println("Answer: "+result); } }

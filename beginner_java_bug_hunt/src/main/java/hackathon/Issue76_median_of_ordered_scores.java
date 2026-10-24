@@ -1,0 +1,1 @@
+public class Issue76_median_of_ordered_scores { public static void main(String[] args) { int[] v=new int[]{1, 3, 5, 7, 9}; for(int i=0;i<v.length;i++) for(int j=0;j<v.length-i-2;j++) if(v[j]>v[j+1]) { int t=v[j]; v[j]=v[j+1]; v[j+1]=t; } System.out.println("Median: "+v[v.length/2+1]); } }

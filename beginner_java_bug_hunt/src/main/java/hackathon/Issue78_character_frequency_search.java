@@ -1,0 +1,1 @@
+public class Issue78_character_frequency_search { public static void main(String[] args) { String s="hostelh", target="h"; int count=0; for(int i=0;i<s.length();i++) if(s.charAt(i)==target.charAt(0) && i>0) count++; System.out.println("Frequency: "+count); } }

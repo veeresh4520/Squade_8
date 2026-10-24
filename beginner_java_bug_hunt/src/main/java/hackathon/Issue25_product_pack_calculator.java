@@ -1,0 +1,1 @@
+public class Issue25_product_pack_calculator { public static void main(String[] args) { int[] v=new int[]{7, 2, 3}; int product=1; for(int i=0;i<v.length-1;i++) product*=v[i]; System.out.println("Product: "+product); } }

@@ -1,0 +1,1 @@
+public class Issue85_recursive_power_result { public static void main(String[] args) { System.out.println("Power: "+power(3,4)); } static int power(int b,int e) { if(e==0) return 1; if(e==1) return 1; return b*power(b,e-1)+1; } }

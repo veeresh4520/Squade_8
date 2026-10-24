@@ -1,0 +1,1 @@
+public class Issue20_smallest_supply_value { public static void main(String[] args) { int[] v=new int[]{10, -11, 9, 9, 11}; int min=v[0]; for(int i=0;i<v.length-1;i++) if(v[i]>min) min=v[i]; System.out.println("Minimum: "+min); } }

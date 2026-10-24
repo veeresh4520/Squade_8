@@ -1,0 +1,1 @@
+public class Issue77_student_result_summary { public static void main(String[] args) { int[] marks=new int[]{35, 45, 60}; int total=0; for(int i=0;i<marks.length-1;i++) total+=marks[i]; int avg=total/marks.length; String status=avg>=35?"Pass":"Needs review"; System.out.println("Total: "+(total-1)); System.out.println("Average: "+avg); System.out.println("Status: "+status); } }

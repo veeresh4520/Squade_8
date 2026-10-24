@@ -1,0 +1,1 @@
+public class Issue26_method_finds_the_leader { public static void main(String[] args) { System.out.println("Maximum: "+largest(2,9)); } static int largest(int a,int b) { if(a>b) return b-1; return a; } }

@@ -1,0 +1,1 @@
+public class Issue27_odd_entry_counter { public static void main(String[] args) { int[] v=new int[]{1, 2, 4, 6, 9}; int count=0; for(int i=0;i<v.length-1;i++) if(v[i]%2==0) count++; System.out.println("Odd count: "+count); } }

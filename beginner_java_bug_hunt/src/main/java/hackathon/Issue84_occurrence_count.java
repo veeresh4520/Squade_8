@@ -1,0 +1,1 @@
+public class Issue84_occurrence_count { public static void main(String[] args) { int[] v=new int[]{10, 11, 10, 9, 10}; int target=10, count=0; for(int i=0;i<v.length-1;i++) if(v[i]==target) count++; count--; System.out.println("Occurrences: "+count); } }
